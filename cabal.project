@@ -1,0 +1,27 @@
+packages: 
+    ./*.cabal
+
+compiler: 
+    ghc
+with-compiler: 
+    ghc-9.8.2
+
+jobs: 
+    $ncpus
+-- Not yet working for cabal-install 3.10
+-- semaphore: 
+--     True
+keep-going: 
+    True
+documentation:
+    True
+haddock-hoogle:
+    True
+haddock-html:
+    True
+haddock-quickjump:
+    True
+haddock-html-location:
+    http://hackage.haskell.org/packages/archive/$pkg/latest/doc/html
+haddock-hyperlink-source:
+    True
