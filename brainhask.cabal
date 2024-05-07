@@ -133,6 +133,7 @@ library
   -- cabal-gild: discover src/lib
   exposed-modules:
     Brainhask.Code
+    Brainhask.ErrorInterface
 
 -- Modules included in this library but not exported.
 -- other-modules:
