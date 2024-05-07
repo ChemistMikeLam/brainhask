@@ -132,6 +132,7 @@ library
   -- Modules exported by the library.
   -- cabal-gild: discover src/lib
   exposed-modules:
+    Brainhask.Code
 
 -- Modules included in this library but not exported.
 -- other-modules:
