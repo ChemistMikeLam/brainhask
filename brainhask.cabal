@@ -134,6 +134,7 @@ library
   exposed-modules:
     Brainhask.Code
     Brainhask.ErrorInterface
+    Brainhask.ParserPrinterInterface
 
 -- Modules included in this library but not exported.
 -- other-modules:
